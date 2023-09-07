@@ -18,7 +18,8 @@ function redirectToStore() {
   if (userOS === 'Android') {
     window.location.href = 'https://play.google.com/store/apps';
   } else if (userOS === 'iOS') {
-    window.location.href = 'https://www.apple.com/ua/app-store/';
+    window.location.href =
+      'https://apps.apple.com/ua/app/apple-store/id375380948?l=uk';
   } else if (userOS !== 'Android' || 'iOS') {
     window.location.href = '/';
   }
