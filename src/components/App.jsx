@@ -21,7 +21,8 @@ function redirectToStore() {
     window.location.href =
       'https://apps.apple.com/ua/app/apple-store/id375380948?l=uk';
   } else if (userOS !== 'Android' || 'iOS') {
-    window.location.href = '/';
+    // window.location.href = '/';
+    alert('Oops, your OS is not supported');
   }
 }
 
